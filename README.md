@@ -12,4 +12,5 @@ I've opted to use the widescreen Sinden borders, as I found with the non-widescr
 
 Make sure to enable the following settings in your ```/opt/retropie/configs/all/retroarch.cfg``` file to allow per-game settings (so you can still use your lovely shaders and not have to have big borders on your non lightgun games):
 ```game_specific_options = "true"
-auto_overrides_enable = "true"```
+auto_overrides_enable = "true"
+```
