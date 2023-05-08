@@ -11,7 +11,7 @@ The tar archive contains a set of files including:
 
 The files are compressed into a tar archive to maintain the directory structure so that it's completely clear where everything lives, and you can just copy the archive contents into the filesystem, and everything will go where it should.
 
-Run the ```setup-retropie.sh``` script in ```/home/pi/Lightguns``` to copy all of the scripts to your Ports directory.
+The archive should put the appropriate scripts in the ports directory, but running the ```setup-retropie.sh``` script in ```/home/pi/Lightguns``` will re-write those scripts to the ports directory, it won't replace the custom launch scripts with the driver default ones.
 
 This setup is using the 1.08b version of the official Sinden drivers, but you can easily update to future versions by just replacing the contents of the ```/home/pi/Lightgun/Player1``` and ```/home/pi/Lightgun/Player2``` directories without fear of losing any of your settings.
 
