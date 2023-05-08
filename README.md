@@ -1,6 +1,6 @@
 # Sample Sinden Lightgun Setup for RetroPie
 
-A versatile setup for Sinden Lightgun configuration on RetroPie supporting multiple configurations for the Sinden Lightguns, abstracting the configuration files from the driver directories to make it easier to update the driver when new versions come out without losing your lightgun configurations, with example configs for my favourite Lightgun platforms (lr-mame-2003-plus, lr-flycast, and lr-pcsx-rearmed), and example game remap files to match the lightgun configs for each of those systems.
+A versatile setup for Sinden Lightgun configuration on RetroPie supporting multiple configurations for the Sinden Lightguns, abstracting the configuration files from the driver directories to make it easier to update the driver when new versions come out without losing your lightgun configurations, with lightgun configurations for 1 and 2 players in normal mode, recoil mode, and automatic mode, with example configs for my favourite Lightgun platforms (lr-mame-2003-plus, lr-flycast, and lr-pcsx-rearmed), and example game remap files to match the lightgun configs for each of those systems.
 
 The tar archive contains a set of files including:
 
