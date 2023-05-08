@@ -1,6 +1,15 @@
 # Sample Sinden Lightgun Setup for RetroPie
 
-Just a simplified setup for Sinden Lightgun configuration on RetroPie, with example configs for my favourite Lightgun platforms.
+A versatile setup for Sinden Lightgun configuration on RetroPie supporting multiple configurations for the Sinden Lightguns, abstracting the configuration files from the driver directories to make it easier to update the driver when new versions come out without losing your lightgun configuration, with example configs for my favourite Lightgun platforms (lr-mame-2003-plus, lr-flycast, and lr-pcsx-rearmed.
+
+The tar archive contains a set of files including:
+
+* Sinden 1.08b drivers with seperate config files for 1 and 2 players to load the Sinden lightguns in normal mode, recoil mode, and automatic mode
+* The scripts to put in your roms/ports directory that copies the appropriate config file into the driver directories before loading the drivers so that in future when new drivers are released, you can simply overwrite the Player1 and Player2 lightgun directories containing the drivers while preserving your various configurations
+* Per game override examples for the LibRetro versions of MAME 2003 Plus, Flycast, and PCSX-ReArmed that you can copy to match the game name of any game you wish to run on those systems, and it will be configured to use the Sinden lightguns.
+* Per game remap file examples for the same three systems that you can again copy to match the name of any game you wish to run on those systems, and the buttons will be configured to match the configuration of the Sinden Lightguns
+
+The files are compressed into a tar archive to maintain the directory structure so that it's completely clear where everything lives, and you can just copy the archive contents into the filesystem, and everything will go where it should.
 
 Run the ```setup-retropie.sh``` script in ```/home/pi/Lightguns``` to copy all of the scripts to your Ports directory.
 
