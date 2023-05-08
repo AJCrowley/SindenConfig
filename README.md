@@ -1,6 +1,6 @@
 # Sample Sinden Lightgun Setup for RetroPie
 
-A versatile setup for Sinden Lightgun configuration on RetroPie supporting multiple configurations for the Sinden Lightguns, abstracting the configuration files from the driver directories to make it easier to update the driver when new versions come out without losing your lightgun configurations, with lightgun configurations for 1 and 2 players in normal mode, recoil mode, and automatic mode, with example game override configs and per game remap file examples for my favourite Lightgun platforms (lr-mame-2003-plus, lr-flycast, and lr-pcsx-rearmed).
+This configuration is built on vanilla RetroPie Buster 4.8 with all packages up to date, and 1.08 of the Sinden lightgun drivers on a Raspberry Pi 4B as of May 7th 2023. A versatile setup for Sinden Lightgun configuration on RetroPie supporting multiple configurations for the Sinden Lightguns, abstracting the configuration files from the driver directories to make it easier to update the driver when new versions come out without losing your lightgun configurations, with lightgun configurations for 1 and 2 players in normal mode, recoil mode, and automatic mode, with example game override configs and per game remap file examples for my favourite Lightgun platforms (lr-mame-2003-plus, lr-flycast, and lr-pcsx-rearmed).
 
 The tar archive contains a set of files including:
 
